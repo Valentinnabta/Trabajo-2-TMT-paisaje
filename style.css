@@ -13,6 +13,19 @@ body {
    
 }
 
+#titulo {
+    position: absolute;
+    left:500px
+    top:auto
+    
+}
+
+#texto {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+
+}
 :root {
     --sky: #4f7db3;
     --sky2: #3a3d98;
@@ -40,6 +53,12 @@ body {
   
 
 }
+.circulo:hover{
+    background-color: rgb(214, 11, 28);
+}
+.circulo:hover{
+  transform: translateY(-15px);
+}
 
 .circulo2 {
   width: 100px;  
@@ -54,6 +73,10 @@ body {
   display: flex;
   
 
+}
+
+.circulo2:hover{
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
 }
 
 .circulo3 {
@@ -156,6 +179,13 @@ body {
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
+.estrellas:hover{
+    background-color: aqua;
+}
+
+.estrellas:hover{
+  transform: rotate(8deg);
+}
 
 .estrellas2 {
     position: absolute;
@@ -165,6 +195,9 @@ body {
     left: 100px;
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
+}
+.estrellas2:hover{
+    background-color: aqua;
 }
 
 .estrellas3 {
@@ -177,6 +210,9 @@ body {
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
 
+.estrellas3:hover{
+    background-color: aqua;
+}
 .estrellas4 {
     position: absolute;
     width: 80px;
@@ -186,6 +222,10 @@ body {
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
+.estrellas4:hover{
+    background-color: aqua;
+}
+
 
 .estrellas5 {
     position: absolute;
@@ -356,7 +396,7 @@ body {
     border-radius: 100px 100px 0 0;
 }
 
-.luna {
+.luna{
     position: absolute;
     width: 200px;
     height: 200px;
@@ -368,6 +408,9 @@ body {
 
     background: linear-gradient(var(--sky), var(--sky2));
    
+}
+.luna:hover{
+    background: rgb(237, 71, 5);
 }
 
 .copa {
