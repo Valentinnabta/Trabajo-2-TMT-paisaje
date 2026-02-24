@@ -15,16 +15,27 @@ body {
 
 #titulo {
     position: absolute;
-    left:500px
-    top:auto
-    
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    cursor: pointer;
+    text-align: center;
+
+    z-index: 10;
 }
 
 #texto {
     position: absolute;
-    left: 250px;
-    top: 100px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    max-width: 600px;
+    text-align: center;
+    cursor: pointer;
 
+    z-index: 10;
 }
 :root {
     --sky: #4f7db3;
